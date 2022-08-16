@@ -70,10 +70,10 @@ section {
     border-bottom: 1px solid #a0a0a0;
 }
 .brand {
-    height: 80px;
+    height: 85px;
     width: 170px;
-    margin: -15px 0 60px 0;
-}
+    margin-left: -15px;
+    margin-right: 60px;}
 .logo {
     max-width: 100%;
     height: auto;
@@ -81,14 +81,14 @@ section {
 .search-box {
     width: 330px;
     height: 30px;
-    padding: 6px 0 12px 0;
+    padding: 6px 12px;
     border: 1px solid #a0a0a0;
 }
 .search-button {
     background-color: #a0a0a0;
     color: white;
     width: 100px;
-    height: 300px;
+    height: 30px;
     border: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -97,7 +97,7 @@ section {
     width: 575px;
     margin-top: 10px;
 }
-.nav-list li, a {
+.nav-list li a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
@@ -112,7 +112,7 @@ section {
     color: #364147;
     font-size: 18px;
 }
-.account * {
+.account a {
     font-size: 14px;
 }
 .profile-pic {
