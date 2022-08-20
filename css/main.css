@@ -322,7 +322,10 @@ footer a:hover {
     margin-bottom: 5px;
 }
 .newsletter .link-subheader {
-    font: italic 12px 400;
+    /* font: italic 12px 400; */
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
     margin-bottom: 15px;
 }
 .newsletter input {
@@ -342,6 +345,9 @@ footer a:hover {
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
+}
+.ps img {
+    max-width: 230px;
 }
 .demo {
     padding: 0 30px;
