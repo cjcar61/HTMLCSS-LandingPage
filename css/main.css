@@ -225,7 +225,7 @@ section {
 .full-banner-sidebar h4 {
     /* font: 40px 400 italic #637f94; */
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: italic;
     color: #637f94;
     line-height: 1;
@@ -233,7 +233,7 @@ section {
 .full-banner-sidebar h4:after {
     content: "";
     width: 100px;
-    height: 100px;
+    height: 1px;
     background-color: #faa541;
     margin: 20px auto;
     display: block;
