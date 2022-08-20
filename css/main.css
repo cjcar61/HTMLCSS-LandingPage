@@ -223,10 +223,14 @@ section {
     color: white;
 }
 .full-banner-sidebar h4 {
-    font: 40px 700 italic #637f94;
+    /* font: 40px 400 italic #637f94; */
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 100px;
